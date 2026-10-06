@@ -23,3 +23,8 @@ The application is tested using Python unittest.
 - Git
 - GitHub
 - Jenkins
+
+## Features
+
+- Basic arithmetic operations
+- Power calculation
