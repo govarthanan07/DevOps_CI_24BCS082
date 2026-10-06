@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project demonstrates Version Control and Continuous Integration using Git, GitHub and Jenkins.
+This project demonstrates automated software development using Git, GitHub and Jenkins.	
 
 ## Application
 
@@ -23,3 +23,8 @@ The application is tested using Python unittest.
 - Git
 - GitHub
 - Jenkins
+
+## Features
+
+- Basic arithmetic operations
+- Power calculation
