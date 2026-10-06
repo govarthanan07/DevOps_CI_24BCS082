@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project demonstrates Version Control and Continuous Integration using Git, GitHub and Jenkins.
+This project demonstrates automated software development using Git, GitHub and Jenkins.	
 
 ## Application
 
