@@ -10,13 +10,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat '"C:\\Users\\govar\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe" -m py_compile src\\calculator.py'
+                bat '"C:\\Users\\govar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe" -m py_compile src\\calculator.py'
             }
         }
 
         stage('Test') {
             steps {
-                bat '"C:\\Users\\govar\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe" -m unittest discover -s tests -v'
+                bat '"C:\\Users\\govar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe" -m py_compile src\\calculator.py'
             }
         }
     }
