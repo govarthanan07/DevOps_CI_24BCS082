@@ -19,6 +19,9 @@ class TestCalculator(unittest.TestCase):
     def test_power(self):
         self.assertEqual(power(2, 3), 8)
 
+    def test_multiply_by_zero(self):
+        self.assertEqual(multiply(5, 0), 0)
+
 
 
 if __name__ == "__main__":
