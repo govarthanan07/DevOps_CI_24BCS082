@@ -16,7 +16,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                bat '"C:\\Users\\govar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe" -m py_compile src\\calculator.py'
+                bat '"C:\\Users\\govar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe" -m unittest discover -s tests -v'
             }
         }
     }
